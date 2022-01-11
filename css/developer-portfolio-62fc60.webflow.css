@@ -89,8 +89,14 @@ a {
 }
 
 .section.bg-neutral-5 {
+  display: block;
+  overflow: visible;
   background-color: #fff;
   opacity: 1;
+}
+
+.section.bg-neutral-5.chatster-section {
+  display: none;
 }
 
 .section.no-padding-bottom {
@@ -115,6 +121,7 @@ a {
 }
 
 .container.tight {
+  overflow: visible;
   max-width: 800px;
   padding-right: 0px;
   padding-left: 0px;
@@ -1559,6 +1566,7 @@ a {
 .image-2 {
   position: relative;
   display: inline-block;
+  overflow: visible;
   margin-top: 100px;
   float: left;
   text-align: left;
@@ -1617,6 +1625,10 @@ a {
 
 .text-block-5 {
   text-align: left;
+}
+
+.text-block-5.chatster-text-block-1 {
+  margin-top: 20px;
 }
 
 .text-block-6 {
@@ -1969,6 +1981,10 @@ a {
   margin-top: 100px;
 }
 
+.homepage-overlay-image-1.chatster-logo {
+  margin-top: -20px;
+}
+
 .list-item-6 {
   font-weight: 900;
 }
@@ -2248,6 +2264,27 @@ a {
 
 .link-7 {
   text-decoration: none;
+}
+
+.bold-text-2 {
+  text-align: center;
+}
+
+.text-block-18 {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-black {
+  color: #000;
+}
+
+.chatster-profile-image {
+  position: static;
 }
 
 @media screen and (max-width: 991px) {
